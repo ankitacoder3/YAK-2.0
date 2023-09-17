@@ -37,14 +37,16 @@ This project aims to create ```Kafka like software or platform```, for producers
    ```sh
     git clone https://github.com/ankitacoder3/Yet-Another-Kafka--YAK-2.0.git
    ```
-3. Start RabbitMQ in terminal/command prompt. (By typing 'rabbitmq-server.bat'). 
-4. Open a new terminal and start consumer. (By typing 'python consumer.py test n' Or 'python consumer.py test --from-beginning'.) 
-5. Open another new terminal and start producer. (By typing 'python producer1.py test 101’) 
-6. Check the terminal where consumer is running, to check for messages received. 
-7. Now, open the 'broker' folder, which is under 'YAK' folder. 
-8. In that folder you can check the 'topic-log' file for the log activity. 
-9. In the same folder, check the '101' folder (where 101 is the key of leader broker). Open the 'test-lead' file (where test is the topic). You can see that the message has been appended in file.
-10. Hence, the messages have been successfully sent, received and stored. A file also maintains all the activities done as log. 
+3. Start RabbitMQ in terminal/command prompt. By typing ```sh 'rabbitmq-server.bat' ```
+5. Open a new terminal and start consumer. By typing
+   ```sh 'python consumer.py test n' ``` Or ```sh 'python consumer.py test --from-beginning'```
+7. Open another new terminal and start producer. By typing ```sh 'python producer1.py test 101’```
+8. Check the terminal where consumer is running, to check for messages received. 
+9. Now, open the 'broker' folder, which is under 'YAK' folder. 
+10. In that folder you can check the 'topic-log' file for the log activity. 
+11. In the same folder, check the '101' folder (where 101 is the key of leader broker).
+12. Open the 'test-lead' file (where test is the topic). You can see that the message has been appended in file.
+13. Hence, the messages have been successfully sent, received and stored. A file also maintains all the activities done as log. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
   </br>
