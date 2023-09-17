@@ -51,8 +51,20 @@ This project aims to create ```Kafka like software or platform```, for producers
 
 ## Usage
 - To run multiple producers and consumers, open a new terminal for each new consumer and producer. 
-- To run a consumer type the following, { "python consumer.py <topic_name> n", to view the recent message sent } or { "python consumer.py <topic_name> --from-beginning", to view all messages sent from beginning or starting of topic }. 
-- To run a producer type the following, { "python producers1.py <topic_name> <key_of_leader_broker>", where key_of_leader_broker can be 101 or 102 or 103}. 
+- To run a consumer type the following:
+  -  To view the recent message sent
+  ```sh
+  python consumer.py <topic_name> n
+  ```
+  - To view all messages sent from beginning or starting of topic
+  ```sh
+  python consumer.py <topic_name> --from-beginning
+```
+- To run a producer type the following
+```sh
+python producers1.py <topic_name> <key_of_leader_broker>
+```
+where, key_of_leader_broker = 101 or 102 or 103
 
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
   </br>
