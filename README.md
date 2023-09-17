@@ -1,7 +1,8 @@
 <a name="readme-top"></a>
 
 # Yet-Another-Kafka-YAK_2.0
-```YAK_2.0``` can also be termed as ```Yet Another Kafka 2.0```.
+```YAK_2.0``` can also be termed as ```Yet Another Kafka 2.0```. 
+
 This project aims to create ```Kafka like software or platform```, for producers and consumers.
 
 <details>
