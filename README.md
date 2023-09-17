@@ -62,10 +62,10 @@ This project aims to create ```Kafka like software or platform```, for producers
   ```
 
 - To run a producer type the following
-```sh
-python producers1.py <topic_name> <key_of_leader_broker>
-```
-where, key_of_leader_broker = 101 or 102 or 103
+  ```sh
+  python producers1.py <topic_name> <key_of_leader_broker>
+  ```
+    where, key_of_leader_broker = 101 or 102 or 103
 
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
   </br>
