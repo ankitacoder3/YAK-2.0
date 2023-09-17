@@ -36,10 +36,9 @@ This project aims to create ```Kafka like software or platform```, for producers
 1. Clone the ```Yet-Another-Kafka--YAK-2.0``` repository
    ```sh
     git clone https://github.com/ankitacoder3/Yet-Another-Kafka--YAK-2.0.git
-   ```
 3. Start RabbitMQ in terminal/command prompt. By typing
     ```sh
-   rabbitmq-server.bat ```
+   rabbitmq-server.bat 
 5. Open a new terminal and start consumer. By typing
    ```sh
    python consumer.py test n
