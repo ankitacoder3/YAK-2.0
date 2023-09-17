@@ -59,7 +59,8 @@ This project aims to create ```Kafka like software or platform```, for producers
   - To view all messages sent from beginning or starting of topic
   ```sh
   python consumer.py <topic_name> --from-beginning
-```
+  ```
+
 - To run a producer type the following
 ```sh
 python producers1.py <topic_name> <key_of_leader_broker>
