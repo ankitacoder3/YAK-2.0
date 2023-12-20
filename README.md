@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
-# Yet-Another-Kafka--YAK-2.0
-```YAK-2.0``` can also be termed as ```Yet Another Kafka 2.0```. 
+# Yet-Another-Kafka-YAK2.0
+```YAK2.0``` can also be termed as ```Yet Another Kafka 2.0```. 
 
 This project aims to create ```Kafka like software or platform```, for producers and consumers.
 
@@ -35,7 +35,7 @@ This project aims to create ```Kafka like software or platform```, for producers
 ## Steps for execution
 1. Clone the ```Yet-Another-Kafka--YAK-2.0``` repository
    ```sh
-    git clone https://github.com/ankitacoder3/Yet-Another-Kafka--YAK-2.0.git
+    git clone https://github.com/ankitacoder3/Yet-Another-Kafka-YAK2.0.git
 3. Start RabbitMQ in terminal/command prompt. By typing
     ```sh
    rabbitmq-server.bat 
